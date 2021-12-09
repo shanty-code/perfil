@@ -1,10 +1,11 @@
 .presentacion{
-    border:  1px solid green;
+    border: 10px solid burlywood;
     width:100%;
     height: 200px;
     display: flex;
-
-flex-direction: row;
+    background-color: rgb(136, 30, 365);
+    flex-direction: row;
+    border-radius: 15px;
 }
 body section{
     border: 1px solid yellow;
@@ -39,24 +40,29 @@ footer{
     padding-top: 150px;
 }
 .imagen{
-    width: 100%;
+    width: 100px;
     height: auto;
     display: block;
     margin: 0 auto;
-    max-width: 500px;
+    max-width: 150px;
     border-radius: 15px;
+    
 }
 .imagen1{
     padding: 15px;
     display:flex;
     justify-content: center;
     align-items: center;
+    width: 150px;
+    height: auto;
+    border-radius: 20px;
 }
 .texto{
     padding: 40px;
     display:flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
 .imagenes-proyecto{
     width: 150px;
